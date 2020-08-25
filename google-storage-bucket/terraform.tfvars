@@ -1,8 +1,9 @@
 ## =============================================================================
 #  Variable Definition                                                         #
 ## =============================================================================
-var.project = ""
-var.bucket_name = ""
-var.location = ""
-var.versioning_enabled = ""
-var.environment = ""
+project = ""
+bucket_name = ""
+location = ""
+versioning_enabled = ""
+environment = ""
+service_account_name = ""

@@ -34,3 +34,11 @@ variable "environment" {
     type        = "string"
     description = "Value for environment label"
 }
+
+## =============================================================================
+#  Variables - Configure Service Account                                       #
+## =============================================================================
+variable "service_account_name" {
+    type        = "string"
+    description = "unique service account name for bucket"
+}
